@@ -1,0 +1,78 @@
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #0e313a;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  height: 70px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
+a:hover {
+  border-bottom: 1px solid #97cad6;
+}
+
+.home__headerLeft > a {
+  padding-left: 20px;
+  color: #fff;
+  border-bottom: none;
+  cursor: pointer;
+}
+.home__headerLeft > a:hover {
+  color: #97cad6;
+}
+
+.home__headerMiddle {
+  display: flex;
+  margin-left: 280px;
+}
+
+.home__headerMiddle .headerMidIcons {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.home__headerMiddle .headerMidIcons > .MuiSvgIcon-root {
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  color: #0a7f9c;
+}
+.headerMidIcons > .call {
+  align-self: center;
+}
+
+.home__headerRight {
+  display: flex;
+  padding: 30px;
+}
+
+.header__input {
+  display: flex;
+  justify-content: space-between;
+}
+.header__input > input {
+  padding: 5px 5px;
+  border: none;
+}
+.header__input > input:focus {
+  outline-width: 0;
+}
+.header__searchIcon {
+  background-color: #97cad6;
+  border: none;
+  padding: 5px;
+}

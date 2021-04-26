@@ -1,0 +1,128 @@
+.Feed {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 400px;
+  margin-left: 80px;
+  top: 60px;
+  bottom: 60px;
+  width: 600px;
+  height: 400px;
+  color: #333;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.Feed__headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e313a;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  height: 30px;
+  width: 100%;
+}
+
+.Feed__headerTopMid > h4 {
+  color: #fff;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  font-size: 10px;
+}
+img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.Feed__headerTopRight .MuiSvgIcon-root {
+  color: #fff;
+  padding: 5px;
+  font-size: 10px;
+}
+.Feed__headerBottomLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.Feed__headerBottomLeft > .MuiSvgIcon-root {
+  color: #fff;
+  font-size: 10px;
+}
+
+.Feed__headerBottom {
+  display: flex;
+  background-color: #0e313a;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
+.Feed__headerBottomMid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+
+  color: #fff;
+  font-size: 10px;
+}
+
+.Feed__headerBottomLeft > p {
+  font-size: 10px;
+  color: #fff;
+}
+.feed__icons {
+  display: flex;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Feed__details {
+  flex-direction: column;
+  height: 100%;
+  border-right: 8px solid #cecdcd;
+  width: 370px;
+}
+
+.Feed__detailsIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+
+  color: #50ceee;
+}
+.feed__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+}
+.feed__detail > h6 {
+  padding-top: 30px;
+}
+
+.Feed__detailsIcon > .MuiSvgIcon-root {
+  padding: 20px 30px;
+  font-size: 50px;
+  margin-right: 40px;
+}
+.feed__MeetingIcons {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+.Feedicons {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
